@@ -11,7 +11,7 @@ let cityName = document.getElementById("cityName").value;
 
 function fetchCities(cityName) {
   const API_key = import.meta.env.VITE_API_KEY;
-  let url = `http://api.openweathermap.org/geo/1.0/direct?q=${cityName}&limit=6&appid=${API_key}`;
+  let url = `https://api.openweathermap.org/geo/1.0/direct?q=${cityName}&limit=6&appid=${API_key}`;
 
   let containerEl = document.querySelector(".container");
   function createDivs(data) {
