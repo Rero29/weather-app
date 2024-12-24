@@ -1,0 +1,19 @@
+{
+  "name": "weather_app",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.15"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "vite": "^6.0.5"
+  }
+}

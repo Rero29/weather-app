@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.suggestion-div {
+  overflow: hidden;
+  width: 100%;
+  background-color: #565656;
+  height: 70px;
+  font-size: x-large;
+  border-bottom: solid 2px white;
+  text-align: center;
+}
+.suggestion-div:hover {
+  cursor: pointer;
+  background-color: #6b6b6b;
+  font-size: 24px;
+}
+#weather-icon {
+  width: 150px;
+  height: 150px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #565656;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+#weather-status {
+}
