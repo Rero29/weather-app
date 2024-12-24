@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kuromi's weather prediction</title>
+    <script type="module" crossorigin src="/assets/index-BglMukHm.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DshJc2kM.css">
+  </head>
+  <body class="bg-black">
+    <div class="mx-auto flex flex-row gap-8 items-center justify-center">
+      <div class="h-48 w-48">
+        <img src="/assets/kuromi-B64rD5m0.gif" alt="" class="border-none" />
+      </div>
+      <div class="flex flex-col gap-4 items-center justify-center h-screen">
+        <div
+          class="flex gap-0 flex-row w-[24em] font-bold bg-kuromiGreyLight border rounded-lg p-4 border-none justify-around h-56"
+          id="WeatherContent"
+        >
+          <div>
+            <img
+              id="weather-icon"
+              alt="N/A"
+              class="text-kuromiGreyDark rounded-full bg-kuromiGreyDark text-center"
+            />
+            <p
+              class="text-center font-Hachi text-kuromiLightPink"
+              id="weather-txt"
+            ></p>
+          </div>
+          <div class="flex items-center">
+            <p id="weather-status" class=""></p>
+          </div>
+        </div>
+        <div
+          class="flex gap-4 flex-row font-bold bg-kuromiGreyLight border rounded-full px-6 py-2 border-none"
+        >
+          <input
+            class="border-none p-2 text-kuromiLightPink bg-transparent outline-none font-Outfit"
+            id="cityName"
+            type="text"
+            placeholder="Enter City,  Country"
+          />
+          <!-- <label for="city">City</label> -->
+          <div
+            class="h-12 p-0.5 ml-2 w-max flex space-x-2 text-kuromiLightPink hover:text-black cursor-pointer transition delay-100 duration-300 ease-in-out"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth="{1.5}"
+              stroke="currentColor"
+              className="size-6 search-icon"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          class="overflow-y-auto w-[30em] mx-auto h-[10em] container rounded-lg mt-4"
+        ></div>
+      </div>
+      <div class="h-48 w-48">
+        <img src="/assets/kuromi-B64rD5m0.gif" alt="" />
+      </div>
+    </div>
+
+  </body>
+</html>
